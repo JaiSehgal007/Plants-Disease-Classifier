@@ -26,8 +26,9 @@ The application uses a CNN model to detect for the possible disease the plant is
 
 3. **Further Development**
    - Experiment with different model architectures or datasets for improved accuracy.
-   - Enhance functionalities by creating a frontend for the model.
+   - Model quantization and developing tf-lite model for prediction.
+   - Enhance functionalities by creating a react-native mobile app for predication.
    - Uploading the predict function on GCP and using Bucket to store the saved model.
 
 ## Contributing
-Currently I am working developing the web and mobile application for the model, Contributions, issues, and feature requests are welcome!
+Currently I am working on model quantization and developing tf-lite model for prediction which would help this application to run on small devices having low computational ability and alongside working on React-Native frontend for the mobile application, Contributions, issues, and feature requests are welcome!
